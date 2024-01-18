@@ -2,3 +2,7 @@ h1{
     font-size: 18px;
     color: darkblue;
   }
+
+article {
+    padding: 20px;
+}
