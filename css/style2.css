@@ -2,8 +2,18 @@ h1{
     font-size: 48px;
     color: darkblue;
     margin: 20px 20px 20px 0;
-    
+
   }
+
+  header{
+
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-color: #3042a0;
+    background-position: 20px 5px;
+    height: 120px;
+    
+    }
 
 article {
     padding: 20px;
