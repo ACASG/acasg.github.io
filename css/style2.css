@@ -5,6 +5,7 @@ h1{
     text-align: center;
     background-image: url(../img/prueba.png);
     width: 100%;
+    background-repeat: no-repeat;
 
   }
 
