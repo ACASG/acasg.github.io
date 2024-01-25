@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
+    
     <h1>Operación en Tiempo Real</h1>
+   
     <div class="container-fluid">
 
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="color: darkblue;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-3" style="text-align: left;">Banco de información OTR</span>
+            <span class="fs-3" style="text-align: left;"> Banco de información OTR</span>
             </a>
             
             <ul class="nav nav-pills">
@@ -32,24 +34,30 @@
 
 
     <article id="section1">
-        <h3>Programa diario de mantenimiento</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur mollitia molestiae commodi! Quasi deserunt itaque obcaecati quam est exercitationem asperiores rem temporibus dignissimos. Numquam illum sapiente, corporis earum doloremque totam.</p>
-        <p>Seleccione fecha:</p>
-        
+        <form name="form1" action="" method="post">
+            <div class="col-lg-4 mx-auto">
+                <fieldset>
+                <h3>Programa diario de mantenimiento</h3>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur mollitia molestiae commodi! Quasi deserunt itaque obcaecati quam est exercitationem asperiores rem temporibus dignissimos. Numquam illum sapiente, corporis earum doloremque totam.</p>
+                 <p>Seleccione fecha:</p>
+                </fieldset>
+            </div>
+
+
         <!--Agregar calendario para seleccionar fecha de PDM-->
         <div>
             <label for="fechaPDM">Fecha de PDM:</label>
              <input type="date" id="fechaPDM" required>
         </div>
 
-      </article>
+    </article>
 
 
     </article id="section2">
         <h3>Mantenimientos</h3>
         <p>Filtro Equipo</p>
 
-
+        </form>
     <article>
 
 </body>
