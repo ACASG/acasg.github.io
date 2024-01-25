@@ -1,26 +1,25 @@
 h1{
     font-size: 48px;
-    color: darkblue;
-    text-align: center;
-    background-image: url(../img/prueba.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    color: rgb(208, 208, 238);
+    text-align: left;
     height: 60px;
-    display: flex;
 
   }
 
   header{
-
-    background-image: url(../img/logo.png);
-    background-repeat: no-repeat;
     background-color: #3042a0;
     background-position: 20px 5px;
-    height: 60px;
+    height: 80px;
     
     }
 
 article {
     padding: 20px;
+}
+
+body {
+  background-image: url(../img/prueba.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
