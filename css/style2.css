@@ -10,16 +10,23 @@ h1{
     background-color: #3042a0;
     background-position: 20px 5px;
     height: 80px;
-    
+    margin: 0;
     }
 
-article {
-    padding: 20px;
-}
 
 body {
   background-image: url(../img/prueba.png);
   background-repeat: no-repeat;
   background-size: cover;
   
+}
+
+fieldset{
+  padding: 20px !important;
+  
+}
+
+h3{
+  color: darkblue;
+  text-align: left;
 }

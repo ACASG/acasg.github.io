@@ -17,7 +17,7 @@
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
             <h1>Operación en Tiempo real</h1>
-            <span class="fs-3" style="text-align: left;"> </span>
+            <span class="fs-3" style="text-align: right;"> </span>
             </a>
             
             <ul class="nav nav-pills">
@@ -35,30 +35,65 @@
 
     <article id="section1">
         <form name="form1" action="" method="post">
-            <div class="col-lg-4 mx-auto">
+            <div class="row">
+            <div class="col-lg-4">
                 <fieldset>
                 <h3>Programa diario de mantenimiento</h3>
                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur mollitia molestiae commodi! Quasi deserunt itaque obcaecati quam est exercitationem asperiores rem temporibus dignissimos. Numquam illum sapiente, corporis earum doloremque totam.</p>
-                 <p>Seleccione fecha:</p>
+
+                 <!--Agregar calendario para seleccionar fecha de PDM-->
+                 <div>
+                    <label for="fechaPDM">Fecha de PDM:</label>
+                    <input type="date" id="fechaPDM" required>
+                 </div>
                 </fieldset>
             </div>
 
+            <div class="col-lg-4  mx-auto">
+                <fieldset>
+                    <legend>Seleccione elemento:</legend>
+                    <p><label class="form-label" for="Type"> Tipo Elemento:</label><select class="form-control" name="Type" id="Type">
+                        <option> </option>
+                        <option>Línea de Transmisión</option>
+                        <option>Generador</option>
+                        <option>Transformador</option>
+                        <option>Equipos de compensación</option>
+                        <option>Subestación</option>
 
-        <!--Agregar calendario para seleccionar fecha de PDM-->
-        <div>
-            <label for="fechaPDM">Fecha de PDM:</label>
-             <input type="date" id="fechaPDM" required>
-        </div>
-
+                    </select></p>
+                </fieldset>
+            </div>
+            </div>
+        </form>
     </article>
-
+   
 
     </article id="section2">
-        <h3>Mantenimientos</h3>
-        <p>Filtro Equipo</p>
+        <form name="form2" action="" method="post">
+            <div class="col-lg-8">
+                <fieldset>
+                <h3>Mantenimientos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iste optio facere quod repudiandae odio? Nesciunt soluta aliquid quae ut animi quibusdam dolorum enim asperiores. Deleniti iste dolor est earum.</p>
+                <p>Filtro Equipo:</p>
+                </fieldset>
+            <div>
 
         </form>
     <article>
+
+    </article id="section3">
+        <form name="form3" action="" method="post">
+         <div class="col-lg-8">
+            <fieldset>
+            <h3>Despacho</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iste optio facere quod repudiandae odio? Nesciunt soluta aliquid quae ut animi quibusdam dolorum enim asperiores. Deleniti iste dolor est earum.</p>
+            <p>Unidades:</p>
+            </fieldset>
+         <div>
+
+     </form>
+    <article>
+
 
 </body>
 </html>
