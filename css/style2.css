@@ -5,7 +5,7 @@
 h1{
     font-size: 48px;
     color: rgb(208, 208, 238);
-    text-align: left;
+    text-align: center;
     height: 60px;
 
   }
@@ -34,3 +34,4 @@ h3{
   color: darkblue;
   text-align: left;
 }
+
