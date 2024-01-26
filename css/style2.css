@@ -1,3 +1,7 @@
+*{
+  margin:0;
+}
+
 h1{
     font-size: 48px;
     color: rgb(208, 208, 238);
