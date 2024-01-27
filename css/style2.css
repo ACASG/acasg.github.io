@@ -102,8 +102,13 @@ body{
   /* Centra la imagen en el eje horizontal */
 }
 
-
-
+img.standard-image {
+  width: 200px; /* Establece el ancho deseado para las imágenes */
+  height: 100px;
+  object-fit: cover;
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+  margin: 0 auto;
+}
 
 
 @media(max-width: 767px) {
