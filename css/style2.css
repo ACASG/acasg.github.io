@@ -110,6 +110,13 @@ img.standard-image {
   margin: 0 auto;
 }
 
+.warnings{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #f6f4f7;
+  padding-top: 20px;
+}
 
 @media(max-width: 767px) {
   .navbar-nav {

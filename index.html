@@ -374,18 +374,18 @@
 
                 <div class="row m-0">
                     <div class="col-md-12 p-0 pt-4 pb-4">
-                        <form id="miformulario" action="#" class="bg-dark p-4 m-auto">
+                        <form id="form" action="" method="post" class="bg-dark p-4 m-auto">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <input type="text" class="form-control" placeholder="Nombre" required>
+                                        <input id="name" type="text" class="form-control" placeholder="Nombre y Apellido">
                             
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <input type="email" class="form-control" placeholder="Correo" required>
+                                        <input id="email" name=""  type="email" class="form-control" placeholder="Correo">
                             
                                     </div>
                                 </div>
@@ -397,7 +397,7 @@
                                     </div>
                                 </div>
 
-                                <button class="btn btn-primary btn-lg btn-block mt-3" onclick="mostrarAlerta()">Enviar</button>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block mt-3" >Enviar</button>
                                 <p class="warnings" id="warnings"></p>
 
                             </div>
