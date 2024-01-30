@@ -22,7 +22,7 @@ form.addEventListener("submit", e=>{
     if(entrar){
         parrafo.innerHTML = warnings
     }else{
-        parrafo.innerHTML = "Enviado"
+        parrafo.innerHTML = "Enviado, revise su bandeja de correo."
     }
 })
 

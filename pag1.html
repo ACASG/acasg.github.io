@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pag1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calendario</title>
 </head>
 <body>
-    <h1>En desarrollo</h1>
+<h1 class="title">Calendario Clases Express</h1>
+
+<div class="calendar">
+    <div class="calendar__info">
+        <div class="calendar__prev" id="prev-month">&#9664;</div>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <div class="calendar__next" id="next-month">&#9654;</div>
+    </div>
+
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Lun</div>
+        <div class="calendar__day calendar__item">Mar</div>
+        <div class="calendar__day calendar__item">Mié</div>
+        <div class="calendar__day calendar__item">Jue</div>
+        <div class="calendar__day calendar__item">Vie</div>
+        <div class="calendar__day calendar__item">Sáb</div>
+        <div class="calendar__day calendar__item">Dom</div>
+    </div>
+
+    <div class="calendar__dates" id="dates"></div>
+</div>
+
+<script src="js/script2.js"></script>
 </body>
 </html>
